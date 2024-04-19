@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center w-screen bg-neutral-800">
+    <footer className="flex justify-center bg-neutral-800">
       <div className="sm:flex justify-between w-full max-w-7xl pt-12 pb-12 gap-6 mr-6 ml-6 sm:gap-6">
         <div className="flex flex-col gap-6">
           <p className="text-white font-medium">Equipes</p>
@@ -52,7 +52,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="h-6">
+        <div className="flex justify-center mt-10 sm:mt-0 sm:block">
           <Image
             src="/img/flare-hub-logo.png"
             alt="logo-flare-hub"
