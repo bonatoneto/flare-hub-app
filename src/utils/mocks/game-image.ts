@@ -8,44 +8,44 @@ export const GameImageData: GameImageDataProp = {
   games: [
     {
       firstGameImage: {
-        src: '/img/lol.png',
+        src: '/img/games/lol.png',
         alt: 'banner-league-of-legends',
       },
       secondGameImage: {
-        src: '/img/team-lol.png',
+        src: '/img/games/team-lol.png',
         alt: 'banner-league-of-legends',
       },
       url: '/league-of-legends/times',
     },
     {
       firstGameImage: {
-        src: '/img/cs2.png',
+        src: '/img/games/cs2.png',
         alt: 'banner-counter-strike-2',
       },
       secondGameImage: {
-        src: '/img/team-cs2.png',
+        src: '/img/games/team-cs2.png',
         alt: 'banner-counter-strike-2',
       },
       url: '/counter-strike-2/times',
     },
     {
       firstGameImage: {
-        src: '/img/valorant.png',
+        src: '/img/games/valorant.png',
         alt: 'banner-valorant',
       },
       secondGameImage: {
-        src: '/img/team-valorant.png',
+        src: '/img/games/team-valorant.png',
         alt: 'banner-valorant',
       },
       url: '/valorant/times',
     },
     {
       firstGameImage: {
-        src: '/img/r6.png',
+        src: '/img/games/r6.png',
         alt: 'banner-rainbow-six',
       },
       secondGameImage: {
-        src: '/img/team-r6.png',
+        src: '/img/games/team-r6.png',
         alt: 'banner-rainbow-six',
       },
       url: '/rainbow-six-siege/times',

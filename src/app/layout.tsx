@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body className="overflow-x-hidden">
         <Header />
-        {children}
+         {children}
         <Footer />
       </body>
     </html>
