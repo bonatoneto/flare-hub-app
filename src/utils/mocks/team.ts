@@ -20,37 +20,57 @@ export const TeamsData: TeamDataProps = {
 			{	
 				firstImage: {
 					src: '/img/teams-lol/loud/player1.png',
-					alt: 'jogador-loud'
+					alt: 'top-laner-loud'
 				},
-				url: '/league-of-legends/times/loud/robo'
+				secondImage: {
+					src: '/img/teams-lol/loud/player1icon.png',
+					alt: 'top-laner-loud'
+				},
+				url: '/league-of-legends/times/loud'
 			},
 			{
 				firstImage: {
 					src: '/img/teams-lol/loud/player2.png',
-					alt: 'jogador-loud'
+					alt: 'jungler-loud'
 				},
-				url: '/league-of-legends/times/loud/robo'
+				secondImage: {
+					src: '/img/teams-lol/loud/player2icon.png',
+					alt: 'jungler-loud'
+				},
+				url: '/league-of-legends/times/loud'
 			},
 			{
 				firstImage: {
 					src: '/img/teams-lol/loud/player3.png',
-					alt: 'jogador-loud'
+					alt: 'mid-laner-loud'
 				},
-				url: '/league-of-legends/times/loud/robo'
+				secondImage: {
+					src: '/img/teams-lol/loud/player3icon.png',
+					alt: 'mid-laner-loud'
+				},
+				url: '/league-of-legends/times/loud'
 			},
 			{
 				firstImage: {
 					src: '/img/teams-lol/loud/player4.png',
-					alt: 'jogador-loud'
+					alt: 'adcarry-loud'
 				},
-				url: '/league-of-legends/times/loud/robo'
+				secondImage: {
+					src: '/img/teams-lol/loud/player4icon.png',
+					alt: 'adcarry-loud'
+				},
+				url: '/league-of-legends/times/loud'
 			},
 			{
 				firstImage: {
 					src: '/img/teams-lol/loud/player5.png',
-					alt: 'jogador-loud'
+					alt: 'support-loud'
 				},
-				url: '/league-of-legends/times/loud/robo'
+				secondImage: {
+					src: '/img/teams-lol/loud/player5icon.png',
+					alt: 'support-loud'
+				},
+				url: '/league-of-legends/times/loud'
 			},
 		],
 		sponsors: [
