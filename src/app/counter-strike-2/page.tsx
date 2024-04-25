@@ -10,8 +10,8 @@ export default function CounterSrike2TeamsPage() {
           {cs2TeamsData && cs2TeamsData.teamsCs2.map((item, index) => (
             <li key={index}>
               <GameImage
-                firstGameImage={item.firstGameImage}
-                secondGameImage={item.secondGameImage}
+                firstImage={item.firstImage}
+                secondImage={item.secondImage}
                 url={item.url}
               />
             </li>

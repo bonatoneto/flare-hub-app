@@ -10,8 +10,8 @@ export default function LeagueOfLegendsTeamsPage() {
           {cs2TeamsData && cs2TeamsData.teamsLol.map((item, index) => (
             <li key={index}>
               <GameImage
-                firstGameImage={item.firstGameImage}
-                secondGameImage={item.secondGameImage}
+                firstImage={item.firstImage}
+                secondImage={item.secondImage}
                 url={item.url}
               />
             </li>

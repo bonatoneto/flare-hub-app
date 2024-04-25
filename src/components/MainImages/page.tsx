@@ -6,12 +6,12 @@ import { useState } from "react"
 import { ImageInterface } from "utils/types/image"
 
 export interface ImageProps {
-  firstGameImage: ImageInterface
-  secondGameImage: ImageInterface
+  firstImage: ImageInterface
+  secondImage?: ImageInterface
   url: string
 }
 
-export default function GameImage({ firstGameImage, secondGameImage, url}: ImageProps) {
+export default function GameImage({ firstImage, secondImage, url}: ImageProps) {
   const [isHoverImage, setIsHoverImage] = useState<boolean>(false)
 
   return (
@@ -23,8 +23,8 @@ export default function GameImage({ firstGameImage, secondGameImage, url}: Image
       >
         {!isHoverImage ? (
           <Image
-            src={firstGameImage.src}
-            alt={firstGameImage.alt}
+            src={firstImage?.src}
+            alt={firstImage?.alt}
             width={296}
             height={670}
             quality={100}
@@ -32,12 +32,12 @@ export default function GameImage({ firstGameImage, secondGameImage, url}: Image
           />
         ) : (
           <Image
-          src={secondGameImage.src}
-          alt={secondGameImage.alt}
-          width={296}
-          height={670}
-          quality={100}
-          priority={true}
+            src={secondImage?.src || ''}
+            alt={secondImage?.alt || ''}
+            width={296}
+            height={670}
+            quality={100}
+            priority={true}
           />
         )}
       </div>
