@@ -1,4 +1,4 @@
-import Image from "next/image"
+import GameImage from "components/GameImage/page"
 import { TeamsData } from "utils/mocks/team"
 
 export default function Team() {
@@ -10,11 +10,10 @@ export default function Team() {
         <ul className="flex flex-wrap justify-center gap-4">
           {teamData && teamData.loud.playersImage.map((item, index) => (
             <li key={`${index}-${item.firstImage.alt}`}>
-              <Image 
-                src={item.firstImage.src} 
-                alt={item.firstImage.alt}
-                width={243}
-                height={392}
+              <GameImage
+                firstImage={item.firstImage}
+                secondImage={item.secondImage}
+                url={item.url}
               />
             </li>
           ))}
