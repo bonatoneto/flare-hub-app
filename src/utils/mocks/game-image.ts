@@ -1,4 +1,4 @@
-import { ImageProps } from "components/GameImage/page"
+import { ImageProps } from "components/MainImages/page"
 
 interface GameImageDataProp {
   games: ImageProps[]
@@ -15,7 +15,7 @@ export const GameImageData: GameImageDataProp = {
         src: '/img/games/team-lol.png',
         alt: 'banner-league-of-legends',
       },
-      url: '/league-of-legends/times',
+      url: '/league-of-legends',
     },
     {
       firstGameImage: {
@@ -26,7 +26,7 @@ export const GameImageData: GameImageDataProp = {
         src: '/img/games/team-cs2.png',
         alt: 'banner-counter-strike-2',
       },
-      url: '/counter-strike-2/times',
+      url: '/counter-strike-2',
     },
     {
       firstGameImage: {
@@ -37,7 +37,7 @@ export const GameImageData: GameImageDataProp = {
         src: '/img/games/team-valorant.png',
         alt: 'banner-valorant',
       },
-      url: '/valorant/times',
+      url: '/valorant',
     },
     {
       firstGameImage: {
@@ -48,7 +48,7 @@ export const GameImageData: GameImageDataProp = {
         src: '/img/games/team-r6.png',
         alt: 'banner-rainbow-six',
       },
-      url: '/rainbow-six-siege/times',
+      url: '/rainbow-six-siege',
     },
   ]
 }

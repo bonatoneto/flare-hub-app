@@ -1,4 +1,4 @@
-import { ImageProps } from "components/GameImage/page"
+import { ImageProps } from "components/MainImages/page"
 
 interface TeamsImageDataProp {
   teamsLol: ImageProps[]
@@ -16,7 +16,7 @@ export const TeamsImageData: TeamsImageDataProp = {
         src: '/img/teams-lol/team-lol-loud.png',
         alt: 'Time de League of Legends da Loud',
       },
-      url: '/',
+      url: '/league-of-legends/loud',
     },
     {
       firstGameImage: {

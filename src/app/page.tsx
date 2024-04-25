@@ -1,4 +1,4 @@
-import GameImage from 'components/GameImage/page'
+import GameImage from 'components/MainImages/page'
 import { GameImageData } from 'utils/mocks/game-image'
 
 export default function Home() {

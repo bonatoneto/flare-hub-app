@@ -1,7 +1,7 @@
-import GameImage from "components/GameImage/page";
+import GameImage from "components/MainImages/page";
 import { TeamsImageData } from "utils/mocks/teams-image";
 
-export default function ValorantTeamsPage() {
+export default function RainbowSixSiegeTeamsPage() {
   const cs2TeamsData = TeamsImageData
   return (
     <main className="flex justify-center bg-neutral-900">

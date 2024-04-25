@@ -3,15 +3,11 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-
-export interface GameImageInterface {
-  src: string
-  alt: string
-}
+import { ImageInterface } from "utils/types/image"
 
 export interface ImageProps {
-  firstGameImage: GameImageInterface
-  secondGameImage: GameImageInterface
+  firstGameImage: ImageInterface
+  secondGameImage: ImageInterface
   url: string
 }
 

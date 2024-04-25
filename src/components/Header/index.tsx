@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import HeaderMobileMenu from "../HeaderMobileMenu";
 
 export default function Header() {
   const [isMobile, setIsMobile] = useState(false)
@@ -37,19 +36,19 @@ export default function Header() {
           <nav className="">
             <ul className="flex gap-6 font-medium text-white">
               <li>
-                <a href="/league-of-legends" className="hover:text-neutral-400 transition-all">Home</a>
+                <a href="/" className="hover:text-neutral-400 transition-all">Home</a>
               </li>
               <li>
-                <a href="#" className="hover:text-neutral-400 transition-all">LOL</a>
+                <a href="/league-of-legends" className="hover:text-neutral-400 transition-all">LOL</a>
               </li>
               <li>
-                <a href="#" className="hover:text-neutral-400 transition-all">CS2</a>
+                <a href="/counter-strike-2" className="hover:text-neutral-400 transition-all">CS2</a>
               </li>
               <li>
-                <a href="#" className="hover:text-neutral-400 transition-all">Valorant</a>
+                <a href="/valorant" className="hover:text-neutral-400 transition-all">Valorant</a>
               </li>
               <li>
-                <a href="#" className="hover:text-neutral-400 transition-all">R6</a>
+                <a href="/raimbow-six-siege" className="hover:text-neutral-400 transition-all">R6</a>
               </li>
             </ul>
           </nav>
