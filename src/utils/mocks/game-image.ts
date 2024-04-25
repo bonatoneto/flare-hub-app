@@ -7,44 +7,44 @@ interface GameImageDataProp {
 export const GameImageData: GameImageDataProp = {
   games: [
     {
-      firstGameImage: {
+      firstImage: {
         src: '/img/games/lol.png',
         alt: 'banner-league-of-legends',
       },
-      secondGameImage: {
+      secondImage: {
         src: '/img/games/team-lol.png',
         alt: 'banner-league-of-legends',
       },
       url: '/league-of-legends/times',
     },
     {
-      firstGameImage: {
+      firstImage: {
         src: '/img/games/cs2.png',
         alt: 'banner-counter-strike-2',
       },
-      secondGameImage: {
+      secondImage: {
         src: '/img/games/team-cs2.png',
         alt: 'banner-counter-strike-2',
       },
       url: '/counter-strike-2/times',
     },
     {
-      firstGameImage: {
+      firstImage: {
         src: '/img/games/valorant.png',
         alt: 'banner-valorant',
       },
-      secondGameImage: {
+      secondImage: {
         src: '/img/games/team-valorant.png',
         alt: 'banner-valorant',
       },
       url: '/valorant/times',
     },
     {
-      firstGameImage: {
+      firstImage: {
         src: '/img/games/r6.png',
         alt: 'banner-rainbow-six',
       },
-      secondGameImage: {
+      secondImage: {
         src: '/img/games/team-r6.png',
         alt: 'banner-rainbow-six',
       },
