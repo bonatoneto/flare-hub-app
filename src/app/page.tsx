@@ -11,8 +11,8 @@ export default function Home() {
           {gamesImagesData && gamesImagesData.games.map((item, index) => (
             <li key={index}>
               <GameImage 
-                firstGameImage={item.firstGameImage}
-                secondGameImage={item.secondGameImage}
+                firstImage={item.firstImage}
+                secondImage={item.secondImage}
                 url={item.url}
               />
             </li>

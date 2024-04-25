@@ -37,7 +37,7 @@ export default function Header() {
           <nav className="">
             <ul className="flex gap-6 font-medium text-white">
               <li>
-                <a href="/league-of-legends" className="hover:text-neutral-400 transition-all">Home</a>
+                <a href="/" className="hover:text-neutral-400 transition-all">Home</a>
               </li>
               <li>
                 <a href="#" className="hover:text-neutral-400 transition-all">LOL</a>
