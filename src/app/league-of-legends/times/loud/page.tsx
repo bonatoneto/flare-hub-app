@@ -22,12 +22,12 @@ export default function Team() {
         </ul>
         <div className="flex flex-col justify-between gap-8">
           <div>
-            <div className="flex justify-between gap-6">
+            <div className="sm:flex justify-between gap-6">
               <div className="flex flex-col w-full max-w-2xl gap-6">
                 <h2 className="text-white font-bold text-lg">O que é ser <span className="text-green-500 font-extrabold italic">LOUD</span>?</h2>
                 <p className="text-white">A LOUD é a tetra-campeã consecutiva do CBLOL, o primeiro time da história a conseguir esse feito, e segue com sangue nos olhos para representar o Brasil no mundial. O inferno verde é uma das maiores torcidas do Brasil, seja pra apoiar ou cobrar, em boa ou má fase, a LOUD sempre é o time a ser batido.</p>
               </div>
-              <div className="flex flex-col text-white font-bold text-lg">
+              <div className="flex flex-col text-white font-bold text-lg mt-8 lg:mt-0">
                 <p className="mb-6">Comissão técnica</p>
                 <span>Son <span className="font-extrabold italic">“Stardust”</span> Seok-hee</span>
                 <span>Victor <span className="font-extrabold italic">“SrVenancio”</span> Venancio</span>
