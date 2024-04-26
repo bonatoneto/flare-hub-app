@@ -13,9 +13,17 @@ export interface ImageProps {
   firstImage: ImageInterface
   secondImage?: ImageInterface
   url: string
+  width?: number
+  height?: number
 }
 
-export default function GameImage({ firstImage, secondImage, url}: ImageProps) {
+export default function GameImage({ 
+  firstImage, 
+  secondImage, 
+  url, 
+  width, 
+  height
+}: ImageProps) {
   const [isHoverImage, setIsHoverImage] = useState<boolean>(false)
 
   return (
@@ -29,8 +37,8 @@ export default function GameImage({ firstImage, secondImage, url}: ImageProps) {
           <Image
             src={firstImage?.src}
             alt={firstImage?.alt}
-            width={296}
-            height={670}
+            width={width}
+            height={height}
             quality={100}
             priority={true}
           />
@@ -38,8 +46,8 @@ export default function GameImage({ firstImage, secondImage, url}: ImageProps) {
           <Image
             src={secondImage?.src || ''}
             alt={secondImage?.alt || ''}
-            width={296}
-            height={670}
+            width={width}
+            height={height}
             quality={100}
             priority={true}
           />

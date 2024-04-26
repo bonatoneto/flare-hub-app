@@ -8,15 +8,18 @@ export default function Home() {
     <main className="flex justify-center bg-neutral-900">
       <div className="flex w-full max-w-7xl mt-32 mb-32 mr-6 ml-6">
         <ul className="flex flex-wrap justify-center gap-8">
-          {gamesImagesData && gamesImagesData.games.map((item, index) => (
-            <li key={index}>
-              <GameImage 
-                firstImage={item.firstImage}
-                secondImage={item.secondImage}
-                url={item.url}
-              />
-            </li>
-          ))}
+          {gamesImagesData &&
+            gamesImagesData.games.map((item, index) => (
+              <li key={index}>
+                <GameImage
+                  firstImage={item.firstImage}
+                  secondImage={item.secondImage}
+                  url={item.url}
+                  width={296}
+                  height={670}
+                />
+              </li>
+            ))}
         </ul>
       </div>
     </main>

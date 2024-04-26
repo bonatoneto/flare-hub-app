@@ -13,6 +13,8 @@ export default function LeagueOfLegendsTeamsPage() {
                 firstImage={item.firstImage}
                 secondImage={item.secondImage}
                 url={item.url}
+                width={296}
+                height={670}
               />
             </li>
           ))}

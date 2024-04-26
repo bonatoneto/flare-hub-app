@@ -20,13 +20,14 @@ export const TeamsData: TeamDataProps = {
 			{	
 				firstImage: {
 					src: '/img/teams-lol/loud/player1.png',
-					alt: 'top-laner-loud'
+					alt: 'top-laner-loud',
 				},
 				secondImage: {
 					src: '/img/teams-lol/loud/player1icon.png',
-					alt: 'top-laner-loud'
+					alt: 'top-laner-loud/'
 				},
-				url: '/league-of-legends/times/loud'
+				url: '/league-of-legends/times/loud/robo',
+				
 			},
 			{
 				firstImage: {

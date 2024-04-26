@@ -40,13 +40,13 @@ export default function Header() {
                 <a href="/" className="hover:text-neutral-400 transition-all">Home</a>
               </li>
               <li>
-                <a href="#" className="hover:text-neutral-400 transition-all">LOL</a>
+                <a href="/league-of-legends" className="hover:text-neutral-400 transition-all">LOL</a>
               </li>
               <li>
-                <a href="#" className="hover:text-neutral-400 transition-all">CS2</a>
+                <a href="/counter-strike-2" className="hover:text-neutral-400 transition-all">CS2</a>
               </li>
               <li>
-                <a href="#" className="hover:text-neutral-400 transition-all">Valorant</a>
+                <a href="/valorant" className="hover:text-neutral-400 transition-all">Valorant</a>
               </li>
               <li>
                 <a href="#" className="hover:text-neutral-400 transition-all">R6</a>
