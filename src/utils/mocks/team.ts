@@ -49,7 +49,7 @@ export const TeamsData: TeamDataProps = {
 					src: '/img/teams-lol/loud/player3icon.png',
 					alt: 'mid-laner-loud'
 				},
-				url: '/league-of-legends/times/loud'
+				url: '/league-of-legends/times/loud/tinowns'
 			},
 			{
 				firstImage: {

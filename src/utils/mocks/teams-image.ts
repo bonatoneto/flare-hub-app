@@ -10,92 +10,92 @@ export const TeamsImageData: TeamsImageDataProp = {
     {
       firstImage: {
         src: '/img/teams-lol/loud.png',
-        alt: 'time de league of legends da Loud',
+        alt: 'time de league of legends da LOUD',
       },
       secondImage: {
         src: '/img/teams-lol/team-lol-loud.png',
-        alt: 'Time de League of Legends da Loud',
+        alt: 'Time de League of Legends da LOUD',
       },
       url: '/league-of-legends/times/loud',
     },
     {
       firstImage: {
         src: '/img/teams-lol/pain.png',
-        alt: 'Time de League of Legends da Pain Gaming',
+        alt: 'Time de League of Legends da paiN Gaming',
       },
       secondImage: {
         src: '/img/teams-lol/team-lol-pain.png',
-        alt: 'Time de League of Legends da Pain Gaming',
+        alt: 'Time de League of Legends da paiN Gaming',
       },
-      url: '/',
+      url: '/league-of-legends/times/pain',
     },
     {
       firstImage: {
         src: '/img/teams-lol/keyd.png',
-        alt: 'Time de League of Legends da Vivo Keyd',
+        alt: 'Time de League of Legends da Vivo Keyd Stars',
       },
       secondImage: {
         src: '/img/teams-lol/team-lol-keyd.png',
-        alt: 'Time de League of Legends da Vivo Keyd',
+        alt: 'Time de League of Legends da Vivo Keyd Stars',
       },
-      url: '/',
+      url: '/league-of-legends/times/keyd',
     },
     {
       firstImage: {
         src: '/img/teams-lol/red.png',
-        alt: 'Time de League of Legends da Red Canids',
+        alt: 'Time de League of Legends da RED Canids',
       },
       secondImage: {
         src: '/img/teams-lol/team-lol-red.png',
-        alt: 'Time de League of Legends da Red Canids',
+        alt: 'Time de League of Legends da RED Canids',
       },
-      url: '/',
+      url: '/league-of-legends/times/red',
     }
   ],
   teamsCs2: [
     {
       firstImage: {
         src: '/img/teams-cs2/furia.png',
-        alt: 'Time de Counter Strike 2 da Furia',
+        alt: 'Time de Counter-Strike 2 da Furia',
       },
       secondImage: {
         src: '/img/teams-cs2/team-cs2-furia.png',
         alt: 'Time de Counter Strike 2 da Furia',
       },
-      url: '/',
+      url: '/counter-strike-2/times/furia',
     },
     {
       firstImage: {
         src: '/img/teams-cs2/pain.png',
-        alt: 'Time de Counter Strike 2 da Pain',
+        alt: 'Time de Counter-Strike 2 da Pain',
       },
       secondImage: {
         src: '/img/teams-cs2/team-cs2-pain.png',
-        alt: 'Time de Counter Strike 2 da Pain',
+        alt: 'Time de Counter-Strike 2 da Pain',
       },
-      url: '/',
+      url: '/counter-strike-2/times/pain',
     },
     {
       firstImage: {
         src: '/img/teams-cs2/mibr.png',
-        alt: 'Time de Counter Strike 2 da Furia',
+        alt: 'Time de Counter-Strike 2 da Furia',
       },
       secondImage: {
         src: '/img/teams-cs2/team-cs2-mibr.png',
-        alt: 'Time de Counter Strike 2 da MIBR',
+        alt: 'Time de Counter-Strike 2 da MIBR',
       },
-      url: '/',
+      url: '/counter-strike-2/times/mibr',
     },
     {
       firstImage: {
         src: '/img/teams-cs2/imperial.png',
-        alt: 'Time de Counter Strike 2 da Imperial',
+        alt: 'Time de Counter-Strike 2 da Imperial',
       },
       secondImage: {
         src: '/img/teams-cs2/team-cs2-imperial.png',
-        alt: 'Time de Counter Strike 2 da Imperial',
+        alt: 'Time de Counter-Strike 2 da Imperial',
       },
-      url: '/',
+      url: '/counter-strike-2/times/imperial',
     }
   ]
 }

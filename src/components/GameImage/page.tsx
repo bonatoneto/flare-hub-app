@@ -31,7 +31,6 @@ export default function GameImage({
       <div 
         onMouseEnter={() => setIsHoverImage(true)} 
         onMouseLeave={() => setIsHoverImage(false)}
-        className="cursor-pointer"
       >
         {!isHoverImage ? (
           <Image

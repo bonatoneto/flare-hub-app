@@ -1,5 +1,5 @@
 import Image from "next/image"
-import playerRobo from "../../../../../../public/img/teams-lol/loud/robo.png"
+import playertinowns from "../../../../../../public/img/teams-lol/loud/tinowns.png"
 
 export default function Player() {
   return (
@@ -7,8 +7,8 @@ export default function Player() {
     <div className="flex w-full max-w-7xl mt-32 mb-32 mr-6 ml-6 gap-6">
       <div>
         <Image 
-          src={playerRobo} 
-          alt="jogador-robo" 
+          src={playertinowns} 
+          alt="jogador-tinowns" 
           height={1200}  
           quality={100}
         />
@@ -16,16 +16,16 @@ export default function Player() {
       <div className="flex flex-col justify-between gap-6">
         <div className="w-full max-w-3xl flex flex-col gap-10">
           <h1 className="text-5xl text-white font-bold">
-            Leonardo <span className="italic font-extrabold">“Robo”</span> Souza
+            Thiago <span className="italic font-extrabold">“tinowns”</span> Sartori
           </h1>
           <p className="text-white text-3xl">
-            Robo é o top laner da LOUD desde 2021, com passagens vitoriosas por Keyd, RED Canids, CNB, Flamengo e paiN. Hoje com 7 títulos é o maior campeão da história do CBLOL.
+          tinowns é o mid laner da LOUD desde 2021, o único jogador em atividade desde 2013 no cenário e mantendo o alto nível, sendo considerado o melhor mid do país. Hoje com 6 títulos é o mid a ser batido.
           </p>
         </div>
         <ul className="w-full flex flex-wrap gap-5">
           <li>
             <Image 
-              src={'/img/equips/mouseRobo.png'} 
+              src={'/img/equips/mousetinowns.png'} 
               alt="mouse" 
               width={400} 
               height={156} 
@@ -34,7 +34,7 @@ export default function Player() {
           </li>
           <li>
             <Image 
-              src={'/img/equips/headsetRobo.png'} 
+              src={'/img/equips/headsettinowns.png'} 
               alt="headset" 
               width={400} 
               height={156} 
@@ -43,7 +43,7 @@ export default function Player() {
           </li>
           <li>
             <Image 
-              src={'/img/equips/mousepadRobo.png'} 
+              src={'/img/equips/mousepadtinowns.png'} 
               alt="mousepad" 
               width={400} 
               height={156} 
@@ -52,7 +52,7 @@ export default function Player() {
           </li>
           <li>
             <Image 
-              src={'/img/equips/keyboardRobo.png'} 
+              src={'/img/equips/keyboardtinowns.png'} 
               alt="teclado" 
               width={400} 
               height={156} 
