@@ -1,17 +1,11 @@
 "use client"
 
-import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
-export interface ImageInterface {
-  src: string
-  alt: string
-}
-
 export interface ImageProps {
-  firstImage: ImageInterface
-  secondImage?: ImageInterface
+  firstImage: string
+  secondImage?: string
   url: string
   width?: number
   height?: number
@@ -33,22 +27,18 @@ export default function GameImage({
         onMouseLeave={() => setIsHoverImage(false)}
       >
         {!isHoverImage ? (
-          <Image
-            src={firstImage?.src}
-            alt={firstImage?.alt}
+          <img
+            src={firstImage}
+            alt="Imagem do time"
             width={width}
             height={height}
-            quality={100}
-            priority={true}
           />
         ) : (
-          <Image
-            src={secondImage?.src || ''}
-            alt={secondImage?.alt || ''}
+          <img
+            src={secondImage || ''}
+            alt="Imagem do time"
             width={width}
             height={height}
-            quality={100}
-            priority={true}
           />
         )}
       </div>

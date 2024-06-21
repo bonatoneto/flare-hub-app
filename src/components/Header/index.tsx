@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import HeaderMobileMenu from "../HeaderMobileMenu";
+import { Button } from "components/Button";
+import { useDrawer } from "hooks/useDrawer";
 
 export default function Header() {
   const [isMobile, setIsMobile] = useState(false)
@@ -23,6 +25,7 @@ export default function Header() {
 }
 
   const DesktopHeader = () => {
+    const { handleOpenDrawer } = useDrawer()
     return (
       <header className="flex items-center justify-center h-20 bg-neutral-800">
         <div className="flex items-center w-full max-w-7xl mr-6 ml-6 gap-16">
@@ -34,7 +37,7 @@ export default function Header() {
             quality={100}
             priority={true} 
           />
-          <nav className="">
+          <nav className="flex justify-between items-center w-full">
             <ul className="flex gap-6 font-medium text-white">
               <li>
                 <a href="/" className="hover:text-neutral-400 transition-all">Home</a>
@@ -52,6 +55,9 @@ export default function Header() {
                 <a href="/rainbow-six-siege/times" className="hover:text-neutral-400 transition-all">R6</a>
               </li>
             </ul>
+            <div className="max-w-24">
+              <Button text="Entrar" onClick={handleOpenDrawer} />
+            </div>
           </nav>
         </div>
       </header>
