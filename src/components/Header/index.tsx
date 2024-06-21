@@ -27,7 +27,7 @@ export default function Header() {
   const DesktopHeader = () => {
     const { handleOpenDrawer } = useDrawer()
     return (
-      <header className="flex items-center justify-center h-20 bg-neutral-800">
+      <header className="fixed top-0 w-full flex items-center justify-center h-20 bg-neutral-800">
         <div className="flex items-center w-full max-w-7xl mr-6 ml-6 gap-16">
           <Image 
             src="/img/flare-hub-logo.png" 

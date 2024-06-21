@@ -1,11 +1,12 @@
 import BannerCarousel from 'components/BannerCarousel'
 import GameImage from 'components/GameImage/page'
+import { MainContainer } from 'components/MainContainer'
 import { GameImageData } from 'utils/mocks/game-image'
 
 export default function Home() {
   const gamesImagesData = GameImageData
   return (
-    <main className="flex justify-center bg-neutral-900">
+    <MainContainer>
       <div className="flex flex-col w-full max-w-7xl mt-8 mb-32 mx-6">
         <ul className="flex flex-wrap justify-between gap-8">
           {gamesImagesData &&
@@ -25,6 +26,6 @@ export default function Home() {
           <BannerCarousel />
         </div>
       </div>
-    </main>
+    </MainContainer>
   )
 }
