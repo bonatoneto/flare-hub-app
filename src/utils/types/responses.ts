@@ -39,3 +39,31 @@ export interface TeamResponse {
     players: PlayerType[]
   }
 }
+
+interface Equipment {
+  _id: string
+  name: string
+  brand: string
+  slug: string
+  image: string
+}
+
+export interface PlayerResponse {
+  _id: string
+  firstName: string
+  lastName: string
+  nickName: string
+  description: string
+  nacionality: string
+  age: string
+  role: string
+  image1: string
+  image2: string
+  slug: string
+  equipment: {
+    headset: Equipment
+    keyboard: Equipment
+    mouse: Equipment
+    mousepad: Equipment
+  }
+}

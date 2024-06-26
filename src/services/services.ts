@@ -1,4 +1,4 @@
-import { TeamResponse, TeamsGameResponse } from "utils/types/responses"
+import { PlayerResponse, TeamResponse, TeamsGameResponse } from "utils/types/responses"
 import { api } from "./config"
 
 export const getTeamsGame = async (team: string): Promise<TeamsGameResponse> => {
@@ -12,4 +12,10 @@ export const getTeam = async (slug: string): Promise<TeamResponse> => {
   const request = `/api/Team/slug/${slug}`
   const response = await api.get(request)
   return response.data
+}
+
+export const getPlayer = async (slug: string): Promise<PlayerResponse> => {
+  const request = `/api/Player/slug/${slug}`
+  const response = await api.get(request)
+  return response.data.data
 }
