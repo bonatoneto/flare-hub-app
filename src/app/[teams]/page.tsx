@@ -4,12 +4,12 @@ import { getTeamsGame } from "services/services";
 
 interface PageParamsProps {
   params: {
-    times: string
+    teams: string
   }
 }
 
 export default async function TeamsGamePage(props: PageParamsProps) {
-  const getGameTeamsByURL = props.params.times
+  const getGameTeamsByURL = props.params.teams
   const teamsGameData = await getTeamsGame(getGameTeamsByURL)
 
   return (
