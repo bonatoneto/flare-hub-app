@@ -14,8 +14,8 @@ export default async function TeamsGamePage(props: PageParamsProps) {
 
   return (
     <MainContainer>
-      <div className="flex w-full max-w-7xl mt-32 mb-32 mr-6 ml-6">
-        <ul className="flex flex-wrap justify-center gap-8">
+      <div className="flex w-full max-w-7xl mt-16 mb-32 mr-6 ml-6">
+        <ul className="flex flex-wrap justify-center gap-6">
           {teamsGameData.teams.map((team) => (
             <li key={team._id}>
               <GameImage

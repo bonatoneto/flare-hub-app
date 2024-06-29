@@ -17,13 +17,15 @@ export default async function Player(props: PageParamsProps) {
 
   return (
     <MainContainer>
-      <div className="w-full max-w-7xl mt-32 mb-32 mr-6 ml-6 gap-6">
+      <div className="w-full max-w-7xl mt-16 mb-32 mr-6 ml-6 gap-6">
         <div className="flex gap-8">
-          <img
-            src={playerData.image1}
-            alt={`jogador${playerData.nickName}`}
-            height={1200}
-          />
+          <div className="h-fit">
+            <img
+              src={playerData.image1}
+              alt={`jogador${playerData.nickName}`}
+              height={1200}
+            />
+          </div>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col justify-between gap-6">
               <div className="w-full max-w-3xl flex flex-col gap-10">

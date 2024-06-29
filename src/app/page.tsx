@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <MainContainer>
       <div className="flex flex-col w-full max-w-7xl mt-8 mb-32 mx-6">
-        <ul className="flex flex-wrap justify-between gap-8">
+        <ul className="flex flex-wrap justify-between gap-6">
           {gamesImagesData &&
             gamesImagesData.games.map((item, index) => (
               <li key={index}>
